@@ -1,0 +1,125 @@
+body
+{ 
+    background:url(IMAGENES/img9.png)rgba(32, 30, 30, 0.8);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    filter:grayscale(50%);
+    background-blend-mode: multiply;
+}
+
+div img 
+{
+width:5cm;
+height:5cm;
+position:relative;
+left:40cm;
+}
+
+label{
+    color:white;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 2em;
+    -webkit-text-stroke: 1.5px black;
+}
+input{
+    background-color:#C8BDA9;
+    width:30cm;
+    height:0.7cm;
+}
+
+
+
+.atras{
+    color:black;
+    background-color: #D9D9D9;
+    width: 70px;
+    height:30px;
+    text-align:center;
+    margin-top:5em;
+    font-family: 'Fascinate', cursive;  
+    font-size:larger;
+    position:fixed;
+    top: 18cm; left:1cm;
+    cursor:pointer;
+}
+.atras:hover{filter: sepia(60%);}
+
+.inicio{
+    color:black;
+    background-color: #D9D9D9;
+    width: 70px;
+    height:30px;
+    text-align:center;
+    margin-top:5em;
+    font-family: 'Fascinate', cursive;  
+    font-size:larger;
+    position:fixed;
+    top: 18cm; left: 35cm;
+    cursor:pointer;
+}
+.inicio:hover{filter: sepia(60%);}
+
+.cancelar1{
+    color:black;
+    background-color:#D9D9D9;
+    width: 5cm;
+    height:0.8cm;
+    text-align:center;
+    margin-top:5em;
+    font-family: 'Fascinate', cursive;  
+    font-size:larger;
+    position:fixed;
+    top: 7.6cm; left: 33cm;
+    cursor:pointer;
+    border-color: black;
+    border-width: 2px;
+}
+.cancelar1:hover{filter: sepia(60%);}
+.cancelar2{
+    color:black;
+    background-color:#D9D9D9;
+    width: 5cm;
+    height:0.8cm;
+    text-align:center;
+    margin-top:5em;
+    font-family: 'Fascinate', cursive;  
+    font-size:larger;
+    position:fixed;
+    top: 8.9cm; left: 33cm;
+    cursor:pointer;
+    border-color: black;
+    border-width: 2px;
+}
+.cancelar2:hover{filter: sepia(60%);}
+.cancelar3{
+    color:black;
+    background-color:#D9D9D9;
+    width: 5cm;
+    height:0.8cm;
+    text-align:center;
+    margin-top:5em;
+    font-family: 'Fascinate', cursive;  
+    font-size:larger;
+    position:fixed;
+    top: 10.2cm; left: 33cm;
+    cursor:pointer;
+    border-color: black;
+    border-width: 2px;
+}
+.cancelar3:hover{filter: sepia(60%);}
+.cancelar4{
+    color:black;
+    background-color:#D9D9D9;
+    width: 5cm;
+    height:0.8cm;
+    text-align:center;
+    margin-top:5em;
+    font-family: 'Fascinate', cursive;  
+    font-size:larger;
+    position:fixed;
+    top: 11.6cm; left: 33cm;
+    cursor:pointer;
+    border-color: black;
+    border-width: 2px;
+}
+.cancelar4:hover{filter: sepia(60%);}

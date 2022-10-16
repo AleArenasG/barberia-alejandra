@@ -1,0 +1,74 @@
+body
+{ 
+    background:url(imagenes/img8.png)rgba(11, 10, 10, 0.8) ;
+    background-repeat:no-repeat;
+    background-size: 100%; 
+    background-blend-mode: multiply;
+}
+div img 
+{
+width:5cm;
+height:5cm;
+position:relative;
+left:40cm;
+}
+
+label{
+    color:white;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 2em;
+    -webkit-text-stroke: 1.5px black;
+}
+input{
+    background-color:#C8BDA9;
+    width:30cm;
+    height:0.7cm;
+}
+
+
+
+.atras{
+    color:black;
+    background-color: #D9D9D9;
+    width: 70px;
+    height:30px;
+    text-align:center;
+    margin-top:5em;
+    font-family: 'Fascinate', cursive;  
+    font-size:larger;
+    position:fixed;
+    top: 18cm; left:1cm;
+    cursor:pointer;
+}
+.atras:hover{filter: sepia(60%);}
+
+.inicio{
+    color:black;
+    background-color: #D9D9D9;
+    width: 70px;
+    height:30px;
+    text-align:center;
+    margin-top:5em;
+    font-family: 'Fascinate', cursive;  
+    font-size:larger;
+    position:fixed;
+    top: 18cm; left: 35cm;
+    cursor:pointer;
+}
+.inicio:hover{filter: sepia(60%);}
+
+.barberos{
+    background-color:#D9D9D9;
+    width: 5cm;
+    height:30px;
+    text-align:center;
+    margin-top:5em;
+    font-family: 'Fascinate', cursive;  
+    font-size:larger;
+    position:fixed;
+    top: 7.9cm; left: 33cm;
+    cursor:pointer;
+    border-color: black;
+    border-width: 2px;
+}
+.barberos:hover{filter: sepia(60%);}

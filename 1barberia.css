@@ -1,0 +1,77 @@
+body
+{
+
+    background-image:url(imagenes/img1.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+    
+
+}
+.titulo{
+    color: #EB920C;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size:50px;
+    text-align:right;
+    padding-top:30px;
+    padding-right:30px;
+    max-width:inherit;  
+}
+div img
+{
+    width: 8cm;
+    height: 8cm;
+}
+.pedir{
+    width:10px;
+    height:10px;
+    position:fixed;
+    top:4cm; left: 3cm; 
+    cursor:pointer;
+}
+.pedir:hover {filter: sepia(60%);}
+
+.modificar{
+    width:10px;
+    height:10px;
+    position:fixed;
+    top:12cm; left: 19cm; 
+    cursor:pointer;
+}
+.modificar:hover {filter: sepia(60%);}
+
+.cancelar{
+    width:10px;
+    height:5px;
+    position:fixed;
+    top:4cm; left: 32cm; 
+    cursor:pointer;
+}
+.cancelar:hover {filter: sepia(60%);}
+
+.atras{
+    background-color: #D9D9D9;
+    width: 70px;
+    height:30px;
+    text-align:center;
+    margin-top:5em;
+    font-family: 'Fascinate', cursive;  
+    font-size:larger;
+    position:fixed;
+    top: 18cm; left:1cm;
+    cursor:pointer;
+}
+.atras:hover{filter: sepia(60%);}
+
+.inicio{
+    background-color: #D9D9D9;
+    width: 70px;
+    height:30px;
+    text-align:center;
+    margin-top:5em;
+    font-family: 'Fascinate', cursive;  
+    font-size:larger;
+    position:fixed;
+    top: 18cm; left: 35cm;
+    cursor:pointer;
+}
+.inicio:hover{filter: sepia(60%);}
