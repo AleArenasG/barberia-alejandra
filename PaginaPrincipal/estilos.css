@@ -1,0 +1,404 @@
+/*Etiquetas de toda el codigo*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*Section uno principal*/
+.video video
+{
+    width: 100%;
+    height: 98vh;
+    z-index: -50;
+    object-fit: fill;
+    position: relative;
+}
+
+.contenedor{
+    height: 110vh;
+}
+
+#imagen_logo{
+    width: 8%;
+    position: absolute;
+    bottom: 40%;
+    left: 100px;
+    opacity: 80%;
+}
+
+.contenedor_servicios{
+    display:flex;
+    margin-left: 6%;
+    margin-right: 11% ;
+    justify-content: space-around;
+    position: relative;  
+    top: -10%;   
+}
+
+.contenedor_servicios img{
+    position: relative;
+    width: 100px;
+    height: 75px;
+    top: -30px;
+}
+
+.servicios{
+    width: 115px;
+    height: 90px;
+    padding: 30px 50px 30px 50px;
+    background-color: #c8bda9 ;
+    display: flex;
+    margin-left: 8%;
+    position: relative;   
+}
+
+.boton a{
+    padding: 10px 40px 10px 40px;
+    background-color: #c8bda9;
+    position: absolute;
+    bottom: 37%;
+    left: 22%;
+    text-decoration: none;
+    color: black;
+    opacity: 90%;
+}
+
+.boton_inicio{
+    width: 200px;
+    text-align: center;
+    opacity: 90%;
+}
+
+.boton_inicio a{
+    width: 135px;
+    padding: 10px 60px 10px 60px;
+    background-color: #c8bda9;
+    position: absolute;
+    bottom: 90%;
+    left: 75%;
+    text-decoration: none;
+    color: black;
+}
+
+.servicios p{
+    font-size: 25px;
+    position: relative;
+    bottom: -30px;
+    left: -95px;
+}
+
+.redes{
+    width: 45px; ;
+    position: absolute;
+    left: 95.7%;
+    bottom: 21%;
+}
+
+.red{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 5px;
+}
+
+.red img{
+    width: 100%;
+    height: 100%;
+}
+
+div #wpp{
+    width: 45px;
+    height: 45px;
+}
+
+#wpp img{
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    left: 95.7%;
+    bottom: 14%;
+    z-index: 50;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*Section dos*/
+#dos{
+    margin-top: 17%;
+}
+
+.contenedor_dos{
+    margin-top: -13%;
+    margin-bottom: 19.7%;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-image : url(img/FONDO2.3.jpeg);
+    background-repeat: no-repeat;
+    z-index: -50;
+}
+
+.texto{
+    
+    width: 350px;
+    margin-left: 10%;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.texto p{
+    margin-top: 30%;
+}
+
+#imagen{
+    margin-top: 4%;
+    width: 450px;
+    height: 280px;
+    margin-right: 9%
+    
+}
+
+#imagen img{
+    width: 100%;
+    height: 100%;
+}
+
+.udt{
+  position: absolute;
+   left: 42%;  
+    
+}
+
+.udt .dos{
+    position: relative;
+    top: -45px;
+}
+
+.udt .tres{
+    position: relative;
+    top: -95px;
+}
+
+.udt h2{
+    font-size: 45px;
+    font-weight: 15px;
+}
+
+.caja p{
+    font-size: 25px;
+    position:relative ;
+    bottom: 40px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*Section tres*/
+#tercero{
+    width: 100%;
+    height: 550px;
+}
+
+#contenedortres{
+    width: 100%;
+    height: 400px;
+}
+
+#tercero #tercertitu{
+    position: relative;
+    top: -190px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+#tercertitu h1{
+    font-size: 850%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 30%;
+}
+
+.serv{
+    width: 100%;
+    height: 300px ;
+    margin-left: -5%;
+}
+
+.serv img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+}
+
+.serv img:hover{
+    filter: grayscale(0%);
+    transition: all 0.3s;
+}
+
+
+.serv h2{
+    position: relative;
+    z-index: 50;
+    top: -100%;
+    right: 45%;
+    transform: rotate(270deg);
+    color:#c8bda9;
+}
+
+#imageness{
+    position: relative;
+    top: -130px;
+    margin-left: 65px;
+}
+
+#primero{
+    display: flex;
+    height: 100%;
+    
+}
+
+#segundo{
+    display: flex;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*section cuarto*/
+
+#contenedor{
+    width: 100%;
+    height: 550px;
+    background-color: #2b2d2f;
+}
+
+.productos{
+    width: 50%;
+    position: relative;
+    top: 30px;
+    left: 90px;
+}
+
+.productos h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #c8bda9;
+}
+
+.productos hr{
+    width: 148.5%;
+    position: relative;
+    color: #c8bda9;
+    top: -74px;
+    right: -250px;
+}
+
+.owl-carousel{
+    height: 100px;
+}
+
+.owl-carousel div img{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 350px;
+}
+
+span{
+    font-size: 80px;
+    color: #c8bda9;
+}
+
+.owl-nav{
+    text-align: center;
+    height: 1px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*Section cinco*/
+
+#sedes h2{
+    position: relative;
+    width: 25px;
+    left: 88%;
+    bottom: 50px;
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #c8bda9;
+}
+
+#sedes hr{
+    width: 80%;
+    position: relative;
+    color: #c8bda9;
+    top: 35px;
+    right: 100px;
+}
+
+#contenedor_cinco{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+}
+
+#cinco #contenedor_cinco .textof{
+    width: 300px;
+    height: 300px;
+}
+
+.textof h2{
+    color: #c8bda9;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#horario{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+#horario .final{
+    color: black;
+    font-size: 15px;
+}
+
+#redes_dos{
+    display: flex;
+    margin-left: 35%;
+    margin-right: 40%;
+    justify-content: space-between;
+
+}
+
+#redes_dos .sedes_dos{
+    width: 45px;
+    height: 45px;
+    
+}
+
+#redes_dos .sedes_dos img{
+    width: 100%;
+    height: 100%;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*Section copy*/
+#copy{
+    text-align: center;
+}
+
+#copy h2{
+    position: relative;
+    font-size: 15px;
+    top: -15px;
+}
+
+
+
+
+
+
+
