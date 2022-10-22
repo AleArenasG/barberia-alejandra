@@ -1,0 +1,80 @@
+
+:root {
+    --dark:#2b2929 ;
+    --dark-x: #1b2225;
+    --light: #ffffff;
+}
+
+body {
+    font-family: 'MuseoModerno', cursive;
+   
+    font-weight: 300;
+    color: var(--light);
+}
+
+.text-light { color: var(--light) !important; }
+.bg-dark { background-color: var(--dark) !important; }
+.bg-dark-x { background-color: var(--dark-x); }
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.form-control:focus {
+    background-color: var(--dark-x);
+    outline: none;
+}
+
+.img-1 {
+    background-image: url('Imagenes/1662933411309.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url('Imagenes/IMG_9783.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 80;
+    
+}
+.s-d{
+ margin: 1%;
+}
+.oi{
+    display:flex;
+    justify-content: center;
+    margin: 0%;
+    height: 0%;
+}
+.yt{
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Playfair Display SC', serif;
+    
+    font-size: 40px;
+    
+    color: #ffffff;
+    text-align: left;
+    
+}
+.ld{
+    color: rgb(122, 122, 111);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+.qe{
+    height: 100%;
+}
+.zx{
+    height: 49%;
+}
+.ci{
+    color: #ffffff;
+    text-decoration: none;
+}

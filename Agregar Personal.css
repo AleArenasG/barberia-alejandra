@@ -1,0 +1,80 @@
+body{
+    background-image: url(Imagenes/wepik-photo-mode-2022921-13141.png);
+    margin: 0;
+   padding: 0;
+   background-size:100%;
+   
+   background-position: center;
+   
+   
+
+    
+}
+h1{
+    color: #ffffff;
+    padding: 0;
+    width: 100%;
+    font-weight: 40px;
+    display: block;
+    position: relative;
+    background-color: rgba(145, 77, 22, 50%);
+    text-align: end;
+    font-family: 'Fontdiner Swanky';
+    margin-bottom: 11px;
+    
+}
+.cerrar {
+    padding: 10px;
+    display: inline;
+    position: relative;
+    background-color: #ffffff;
+    left: 1240px;
+    opacity: 90%;
+    font-family: 'Fontdiner Swanky';
+    bottom:137px ;
+    font-size: 15px;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+}
+.agregar{
+  margin: 60px;
+  color: white;
+  margin-left: 70PX;
+  font-family:  'Fontdiner Swanky';
+  font-size: 25px;
+  
+}
+.cuadro{
+  padding: 10px;
+  padding-right: 500px;
+  
+}
+.foto{
+  color: rgb(255, 251, 251);
+  font-family: monospace;
+  padding-right: 100px;
+  background-color: rgb(32, 31, 31);
+  position:relative;
+  width: 200px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 80px;
+  top: -20px
+ 
+  
+  
+  
+  ;
+}
+.agg{
+  
+  position: relative;
+  display: inline;
+  left: 660px;
+  top:-104px;
+  font-size: 16px
+  
+
+}

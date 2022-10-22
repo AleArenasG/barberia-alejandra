@@ -1,0 +1,77 @@
+body{
+    background-image: url(Imagenes/IMG_9783.jpg);
+   margin: 0;
+   padding: 0;
+   background-size: cover;
+   background-position: center;
+   margin-top: -10px;
+
+
+}
+.opciones{
+   
+    display: block;
+    width: 100px;
+    background-color: rgba(243, 158, 0,60%);
+    font-weight: 900;
+    padding: 20px;
+    padding-right: 70px;
+    padding-left: 70px ;
+  
+    margin: 10px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: 'Fontdiner Swanky';
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+       
+    
+}
+h1{
+    color: #ffffff;
+    padding: 0;
+    width: 100%;
+    font-weight: 40px;
+    display: block;
+    position: relative;
+    background-color: rgba(145, 77, 22, 50%);
+    text-align: end;
+    font-family: 'Fontdiner Swanky';
+    margin-bottom: 11px;
+    
+    
+    
+}
+p{
+    padding: 10px;
+    display: block;
+    background-color: hsla(60, 56%, 91%, 70%);
+    position: relative;
+    width: 280px;
+    
+    font-family: 'Fontdiner Swanky';
+    font-weight: 900;
+    font-size: 22px;
+    margin: 0;
+    margin-left: 20px;
+    
+}
+.cerrar {
+    padding: 10px;
+    display: inline;
+    position: relative;
+    background-color: hsla(60, 56%, 91%, 70%);
+    left: 1130px;
+   
+    font-family: 'Fontdiner Swanky';
+    top: -40px;
+    font-size: 15px;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+   
+    
+       
+  
+}
